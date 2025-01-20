@@ -35,15 +35,15 @@ export const filterTypes: Record<string, FilterType[]> = {
 };
 
 export const filterNames = {
-  none: 'None',
-  empty: 'Not set',
-  notEmpty: 'Set',
+  none: 'Vacío',
+  empty: 'Sin valor',
+  notEmpty: 'Con valor',
 
-  eq: 'Equal',
-  notEq: 'Not equal',
-  begins: 'Begins with',
-  contains: 'Contains',
-  notContains: 'Does not contain',
+  eq: 'Igual',
+  notEq: 'No es igual',
+  begins: 'Comienza por',
+  contains: 'Contiene',
+  notContains: 'No contiene',
 
   eqN: '=',
   neqN: '!=',
